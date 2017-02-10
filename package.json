@@ -1,0 +1,46 @@
+{
+  "name": "movs2ndtry",
+  "version": "1.0.0",
+  "description": "movies DB react-redux test app",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gonardfreeman/movies2ndtrt.git"
+  },
+  "keywords": [
+    "react",
+    "redux",
+    "router",
+    "hot-module",
+    "moviesDB"
+  ],
+  "author": "Dima Bondarenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gonardfreeman/movies2ndtrt/issues"
+  },
+  "homepage": "https://github.com/gonardfreeman/movies2ndtrt#readme",
+  "dependencies": {
+    "babel-polyfill": "^6.22.0",
+    "babel-runtime": "^6.22.0",
+    "express": "^4.14.1",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.22.1",
+    "babel-loader": "^6.2.10",
+    "babel-plugin-transform-runtime": "^6.22.0",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.22.0",
+    "babel-preset-stage-0": "^6.22.0",
+    "express": "^4.14.1",
+    "react-hot-loader": "^1.3.1",
+    "webpack": "^2.2.1",
+    "webpack-dev-middleware": "^1.10.0",
+    "webpack-hot-middleware": "^2.16.1"
+  }
+}
