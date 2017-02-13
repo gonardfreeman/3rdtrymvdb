@@ -1,5 +1,6 @@
 var path = require('path')
 var webpack = require('webpack')
+var NpmInstallPlugin = require('npm-install-webpack-plugin');
 
 module.exports = {
   devtool: 'cheap-module-eval-source-map',
@@ -16,9 +17,18 @@ module.exports = {
   plugins: [
     new webpack.optimize.OccurrenceOrderPlugin(),
     new webpack.HotModuleReplacementPlugin(),
-    new webpack.NoErrorsPlugin()
+    new NpmInstallPlugin()
   ],
   module: {
+    preLoaders: [
+      {
+        test: /\.js$/,
+        loaders: ['eslint'],
+        include: [
+          path.resolve(__dirname, "src"),
+        ]
+      }
+    ],
     loaders: [
       {
         loaders: ['react-hot', 'babel-loader'],
