@@ -1,7 +1,9 @@
 import React from 'react'
+import styles from './app.css'
 
-export default class App extends React.Component{
+class App extends React.Component{
   render(){
-    return <div>Hello world</div>;
+    return <div className={styles.test}>Hello world</div>;
   }
 }
+export default App

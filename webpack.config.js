@@ -1,6 +1,7 @@
 var path = require('path')
 var webpack = require('webpack')
-var NpmInstallPlugin = require('npm-install-webpack-plugin');
+var combineLoaders = require('webpack-combine-loaders')
+var NpmInstallPlugin = require('npm-install-webpack-plugin')
 
 module.exports = {
   devtool: 'cheap-module-eval-source-map',
@@ -37,6 +38,20 @@ module.exports = {
         ],
         test: /\.js$/,
         plugins: ['transform-runtime'],
+      },
+      {
+        test: /\.css$/,
+        loader: combineLoaders([
+          {
+            loader: 'style-loader'
+          }, {
+            loader: 'css-loader',
+            query: {
+              modules: true,
+              localIdentName: '[name]__[local]___[hash:base64:5]'
+            }
+          }
+        ])
       }
     ]
   }
