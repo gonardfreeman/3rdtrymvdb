@@ -1,6 +1,6 @@
 # react-hot-module-blp
 This is hot module boilerplate. Created by D. Bondarenko.
-#usage
+##usage
  ```
  git clone git@github.com:gonardfreeman/react-hot-module-blp.git
  cd react-hot-module-blp
