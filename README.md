@@ -1,5 +1,5 @@
 # react-hot-module-blp
-This is hot module boilerplate. Create by D. Bondarenko.
+This is hot module boilerplate. Created by D. Bondarenko.
 #usage
 clone(git clone git@github.com:gonardfreeman/react-hot-module-blp.git) && write in your console:
   '''npm install
