@@ -1,0 +1,1 @@
+export const LOAD_MOVIE_SUCCES = 'LOAD_MOVIE_SUCCES'

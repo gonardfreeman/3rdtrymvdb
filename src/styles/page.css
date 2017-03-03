@@ -1,0 +1,43 @@
+.out {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  background: #f7f7f7;
+}
+.container{
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.parts{
+  margin-top: 20px;
+}
+.list_item {
+	display: flex;
+  padding: 0.5em;
+	width: 50%;
+  height: 100%;
+}
+.list_content {
+	background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  padding: 1em;
+	width: 100%;
+}
+.list_content p {
+	flex: 1 0 auto;
+}
+.title{
+  font-weight: bold;
+  font-size: 1.5em;
+}
+.text{
+  padding: 20px 0 20px 0;
+}
