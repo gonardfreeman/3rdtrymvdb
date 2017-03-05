@@ -2,7 +2,6 @@ import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux'
 import MovieComponent from '../components/MovieComponent'
 import * as loadMovieActions from '../actions/loadMovieActions'
-import * as visibilityFilter from '../actions/visibilityFilter'
 
 function mapStateToProps(state){
   return {
@@ -12,8 +11,7 @@ function mapStateToProps(state){
 
 function mapDispatchToProps(dispatch){
   return {
-      movieAction: bindActionCreators(loadMovieActions, dispatch),
-      visibilityActions: bindActionCreators(visibilityFilter, dispatch)
+      movieAction: bindActionCreators(loadMovieActions, dispatch)
   }
 }
 

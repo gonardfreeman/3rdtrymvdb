@@ -3,7 +3,6 @@ import { connect } from 'react-redux'
 import PopularMovies from '../components/PopularMovies'
 import {SHOW_POPULAR,SHOW_MOVIE,SHOW_FAVORITES} from '../constants/Visibility'
 import * as getPopularActions from '../actions/loadPopularActions'
-import * as visibilityFilter from '../actions/visibilityFilter'
 
 function getObjByVisFilter(movie, popular, favorites, filter){
   switch (filter) {
@@ -27,8 +26,7 @@ function mapStateToProps(state){
 
 function mapDispatchToProps(dispatch){
   return {
-    popularActions: bindActionCreators(getPopularActions, dispatch),
-    visibilityActions: bindActionCreators(visibilityFilter, dispatch)
+    popularActions: bindActionCreators(getPopularActions, dispatch)
   }
 }
 
