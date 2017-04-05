@@ -40,7 +40,6 @@ export default class PopularMovies extends React.Component{
           <ul className={page.list}>
             {movs}
           </ul>
-          {this.props.children}
         </div>
       </div>
     );

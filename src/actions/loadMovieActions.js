@@ -9,6 +9,7 @@ function fetchMovie(resp){
   }
 }
 
+
 export function loadMovie(id){
   return function(dispatch){
     return fetch('https://api.themoviedb.org/3/movie/'+id+'?api_key='+key+'&language=en-US')
@@ -16,5 +17,6 @@ export function loadMovie(id){
     .then(response=>{
       dispatch(fetchMovie(response))
     })
+
   }
 }

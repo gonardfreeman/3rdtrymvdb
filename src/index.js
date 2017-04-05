@@ -22,7 +22,7 @@ ReactDOM.render(
   <Provider store={store}>
     <MuiThemeProvider muiTheme={muiTheme}>
       <Router history={history}>
-            <Route exact path='/' component={Popular}/>
+            <Route path='/' component={Popular}/>
             <Route path='/movie/:id' component={Movie}/>
             <Route path='/favorites' component={Favorites}/>
         </Router>

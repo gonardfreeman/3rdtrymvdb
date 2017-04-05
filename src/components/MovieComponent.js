@@ -1,6 +1,7 @@
 import React from 'react'
 import Paper from 'material-ui/Paper'
 import { Link } from 'react-router'
+import RecomendationsComponent from './RecomendationsComponent'
 import movieStyle from '../styles/movie.css'
 
 export default class MovieComponent extends React.Component{
@@ -8,8 +9,13 @@ export default class MovieComponent extends React.Component{
     const {loadMovie} = this.props.movieAction
     loadMovie(this.props.movieId)
   }
+  componentDidMount(){
+    const {loadMovie} = this.props.movieAction
+    loadMovie(this.props.movieId)
+  }
   render(){
     const {movie} = this.props
+    const {recomendations, movieId, recomendationsAction} = this.props
     const {genres} = movie
     var gen_lst = '';
     if(typeof genres != 'undefined'){
@@ -35,23 +41,7 @@ export default class MovieComponent extends React.Component{
               <div><b>Genres:</b> {gen_lst}</div>
             </div>
           </Paper>
-
-        </div>
-        <div className={movieStyle.movie__wrapper}>
-          <Paper zDepth={2}>
-            <div className={movieStyle.movie__item+' '+movieStyle.movie__recomendations}>
-              <div className={movieStyle.movie__title}>Recomendations</div>
-                <div>
-                  <img src={'https://image.tmdb.org/t/p/w500'+movie.poster_path}/>
-                </div>
-                <div>
-                  <img src={'https://image.tmdb.org/t/p/w500'+movie.poster_path}/>
-                </div>
-                <div>
-                  <img src={'https://image.tmdb.org/t/p/w500'+movie.poster_path}/>
-                </div>
-            </div>
-          </Paper>
+          <RecomendationsComponent movieId={movieId} recomendations={recomendations} recomendationsAction={recomendationsAction}/>
         </div>
       </div>
     );

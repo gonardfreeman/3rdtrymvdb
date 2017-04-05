@@ -4,9 +4,6 @@ import PopularMovies from '../components/PopularMovies'
 import * as getPopularActions from '../actions/loadPopularActions'
 
 
-
-
-
 function mapStateToProps(state){
   return {
     information: state.popular
