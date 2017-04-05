@@ -1,15 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router'
 import Paper from 'material-ui/Paper'
-import {SHOW_POPULAR} from '../constants/Visibility'
 import page from '../styles/page.css'
 
 
 export default class PopularMovies extends React.Component{
+  
   componentWillMount(){
     const {loadPopular} = this.props.popularActions
-    const {setVisibilityFilter} = this.props.visibilityActions
-    setVisibilityFilter(SHOW_POPULAR)
     loadPopular()
   }
   render(){
@@ -17,7 +15,10 @@ export default class PopularMovies extends React.Component{
       const movs = information.map((item)=>{
         return (
           <li key={item.title} className={page.list_item}>
-            <Link to={'/movie/'+item.id}
+            <Link to={{
+              pathname:'/movie/'+item.id,
+              state: {...this.state, visibilityFilter: 'SHOW_MOVIE'}
+            }}
                 style={{
                 textDecoration: 'none',
                 color: 'black'

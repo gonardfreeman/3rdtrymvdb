@@ -1,0 +1,970 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"fle",
+				"flex-wrap"
+			],
+			[
+				"basketCout",
+				"basketCount_popup"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"in",
+				"inline-flex"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"so",
+				"solid"
+			],
+			[
+				"bor",
+				"border-top"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"pare",
+				"parents\t.parents()"
+			],
+			[
+				"co",
+				"content"
+			],
+			[
+				"css",
+				"css\t.css() - multiple"
+			],
+			[
+				"b",
+				"block"
+			],
+			[
+				"margi",
+				"margin"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"dae",
+				"datepicker"
+			],
+			[
+				"date",
+				"datepicker"
+			],
+			[
+				"va",
+				"var_dump"
+			],
+			[
+				"Кліє",
+				"клієнт"
+			],
+			[
+				"pa",
+				"padding-left"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"_",
+				"_POST"
+			],
+			[
+				"preg_ma",
+				"preg_match_all"
+			],
+			[
+				"tmp",
+				"tmpDateOfDelivery"
+			],
+			[
+				"ex",
+				"explode"
+			],
+			[
+				"strt",
+				"strtotime"
+			],
+			[
+				"a",
+				"arr_time_window"
+			],
+			[
+				"A",
+				"AddServiceName"
+			],
+			[
+				"re",
+				"return"
+			],
+			[
+				"els",
+				"else"
+			],
+			[
+				"getty",
+				"gettype"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"pass",
+				"password"
+			],
+			[
+				"ret",
+				"return"
+			],
+			[
+				"las",
+				"last_status"
+			],
+			[
+				"last",
+				"last_elem"
+			],
+			[
+				"Від",
+				"Відкласти"
+			],
+			[
+				"else",
+				"elseif\telseif …"
+			],
+			[
+				"text",
+				"text"
+			],
+			[
+				"timewind",
+				"timewindow"
+			],
+			[
+				"time",
+				"time_window"
+			],
+			[
+				"cure",
+				"cur_date"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"товар",
+				"товару"
+			],
+			[
+				"app",
+				"appendTo\t.appendTo()"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"AD",
+				"AddService"
+			],
+			[
+				"ar",
+				"array\t$… = array (…)"
+			],
+			[
+				"tm",
+				"tmp_val"
+			],
+			[
+				"wi",
+				"windows_time"
+			],
+			[
+				"for",
+				"foreach\tforeach …"
+			],
+			[
+				"fo",
+				"foreach\tforeach …"
+			],
+			[
+				"window",
+				"windows_time"
+			],
+			[
+				"proer",
+				"property_exists"
+			],
+			[
+				"jso",
+				"json_encode"
+			],
+			[
+				"read",
+				"ready\tjQuery(document).ready"
+			],
+			[
+				"args_",
+				"args_arr"
+			],
+			[
+				"array_rev",
+				"array_reverse"
+			],
+			[
+				"contro",
+				"controllers"
+			],
+			[
+				"fr",
+				"frontend"
+			],
+			[
+				"js",
+				"json_encode"
+			],
+			[
+				"focu",
+				"focusout\t.focusout()"
+			],
+			[
+				"remove",
+				"removeClass\t.removeClass()"
+			],
+			[
+				"d",
+				"display"
+			],
+			[
+				"fa",
+				"fadeOut\t.fadeOut()"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"sub",
+				"submit\t.submit()"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"stat",
+				"static"
+			],
+			[
+				"c",
+				"case\tcase …"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"has",
+				"hasClass\t.hasClass()"
+			],
+			[
+				"foc",
+				"focusout\t.focusout()"
+			],
+			[
+				"remo",
+				"removeClass\t.removeClass()"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"ch",
+				"checkbox"
+			],
+			[
+				"pu",
+				"public"
+			],
+			[
+				"file_",
+				"file_get_contents"
+			],
+			[
+				"cs",
+				"css\t.css() - single"
+			],
+			[
+				"inner",
+				"innerHeight\t.innerHeight()"
+			],
+			[
+				"border-",
+				"border-left"
+			],
+			[
+				"bo",
+				"border-bottom"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"prop",
+				"prop\t.prop() - single"
+			],
+			[
+				"pr",
+				"prop\t.prop() - multiple"
+			],
+			[
+				"el",
+				"else"
+			],
+			[
+				"ti",
+				"time_in_sec"
+			],
+			[
+				"my",
+				"my_splitted_time"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"str_re",
+				"str_replace"
+			],
+			[
+				"ke",
+				"keyup\t.keyup()"
+			],
+			[
+				"ad",
+				"addres_postomat"
+			],
+			[
+				"posto",
+				"postomat"
+			],
+			[
+				"t",
+				"title"
+			],
+			[
+				"postomat",
+				"postomats"
+			],
+			[
+				"but",
+				"but_for_input"
+			],
+			[
+				"att",
+				"attr\t.attr() - single"
+			],
+			[
+				"key",
+				"keypress\t.keypress()"
+			],
+			[
+				"ht",
+				"html\t.html()"
+			],
+			[
+				"ap",
+				"appendTo\t.appendTo()"
+			],
+			[
+				"maxFiles",
+				"maxfilesexceeded"
+			],
+			[
+				"maxFile",
+				"maxFilesize"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"alig",
+				"text-align"
+			],
+			[
+				"add",
+				"addClass\t.addClass()"
+			],
+			[
+				"C",
+				"CCargo"
+			],
+			[
+				"li",
+				"link"
+			],
+			[
+				"text-a",
+				"text-align"
+			],
+			[
+				"mouse",
+				"mouseenter\t.mouseenter()"
+			],
+			[
+				"tri",
+				"trigger\t.trigger()"
+			],
+			[
+				"ready",
+				"ready\t$(document).ready"
+			],
+			[
+				"місяц",
+				"місяць"
+			],
+			[
+				"set",
+				"setTimeout(callback, after);"
+			],
+			[
+				"con",
+				"console.log();"
+			],
+			[
+				"fade",
+				"fadeOut\t.fadeOut()"
+			],
+			[
+				"all",
+				"all_links\tstatement"
+			],
+			[
+				"al",
+				"all_links\tstatement"
+			],
+			[
+				"i",
+				"img\tstatement"
+			],
+			[
+				"chat",
+				"chat_id"
+			],
+			[
+				"sen",
+				"sendMessage\tfunction"
+			],
+			[
+				"pre",
+				"prettify\tfunction"
+			],
+			[
+				"wr",
+				"write\tfunction"
+			],
+			[
+				"send",
+				"sendContact\tfunction"
+			],
+			[
+				"p",
+				"phone\tstatement"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 150.0,
+		"last_filter": "Package Control: ins",
+		"selected_items":
+		[
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: is",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: inst",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: In",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"file_diff_menu",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/2/0/niche.telemayak.net/design/iStudio/css/global.min.css",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/11/0/zruchnadostavka.ua/wwwtest.zd.ua/frontend/views/site/fx5jp3ik.php",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/8/0/zruchnadostavka.ua/wwwtest.zd.ua/frontend/web/assets/file.json",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/8/0/zruchnadostavka.ua/wwwtest.zd.ua/frontend/web/css/style.css",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/8/0/zruchnadostavka.ua/wwwtest.zd.ua/frontend/views/layouts/main.php",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/8/0/zruchnadostavka.ua/wwwtest.zd.ua/frontend/web/css/nouislider.css",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/8/0/zruchnadostavka.ua/wwwtest.zd.ua/frontend/views/site/fx5jp3ik.php",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/11/0/zruchnadostavka.ua/wwwtest.zd.ua/frontend/views/layouts/main.php",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/1/Secure FTP Connections/zddev/var/www/zddev/zddev01.telemayak.net/frontend/controllers/SiteController.php",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/1/0/zruchnadostavka.ua/wwwtest.zd.ua/frontend/controllers/SiteController.php",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/1/0/zruchnadostavka.ua/wwwtest.zd.ua/frontend/views/site/contact.php",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/1/0/zruchnadostavka.ua/wwwtest.zd.ua/frontend/config/main.php",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/1/0/zruchnadostavka.ua/wwwtest.zd.ua/frontend/views/layouts/main.php",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/1/Secure FTP Connections/zddev/var/www/zddev/zddev01.telemayak.net/frontend/config/main.php",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/7/0/zawood.com.ua/design/iStudio/css/blog.min.css",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/1/Secure FTP Connections/zddev/var/www/zddev/zddev01.telemayak.net/frontend/views/site/fX5jP3ik.php",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/7/0/zawood.com.ua/.htaccess",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/7/0/zawood.com.ua/design/iStudio/html/post.tpl",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/7/0/zawood.com.ua/design/iStudio/html/blog.tpl",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/7/0/zawood.com.ua/design/iStudio/html/master.tpl",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/7/0/zawood.com.ua/simpla/BlogAdmin.php",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/7/0/zawood.com.ua/simpla/index.php",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/7/0/zawood.com.ua/simpla/IndexAdmin.php",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/7/0/zawood.com.ua/simpla/SettingsAdmin.php",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/7/0/zawood.com.ua/view/IndexView.php",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/7/0/zawood.com.ua/view/BlogView.php",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/7/0/zawood.com.ua/view/View.php",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/7/0/zawood.com.ua/view/MainView.php",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/7/0/zawood.com.ua/config/config.php",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/7/0/zawood.com.ua/api/Config.php",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/7/0/zawood.com.ua/index.php",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/7/0/zawood.com.ua/ajax/blog.php",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/7/0/zawood.com.ua/design/iStudio/js/pdp.js",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/7/0/zawood.com.ua/api/Blog.php",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/7/0/zawood.com.ua/api/Simpla.php",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/7/0/zawood.com.ua/api/Pages.php",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/7/0/zawood.com.ua/view/CartView.php",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/7/0/zawood.com.ua/design/iStudio/css/compare.min.css",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/7/0/zawood.com.ua/design/iStudio/css/shares.min.css",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/7/0/zawood.com.ua/design/iStudio/css/search_results.min.css",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/7/0/zawood.com.ua/design/iStudio/css/plp.min.css",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/7/0/zawood.com.ua/design/iStudio/css/pdp.min.css",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/7/0/zawood.com.ua/design/iStudio/css/shop.css",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/7/0/zawood.com.ua/design/iStudio/css/main.min.css",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/7/0/zawood.com.ua/design/iStudio/css/style.min.css",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/7/0/zawood.com.ua/design/iStudio/css/main.css",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/7/Secure FTP Connections/zd.intime.ua/var/www/zd.intime.ua/vendor/yiisoft/yii2/caching/MemCache.php",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/7/Secure FTP Connections/zd.intime.ua/var/www/zd.intime.ua/frontend/config/main.php",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/7/Secure FTP Connections/zd.intime.ua/var/www/zd.intime.ua/frontend/web/index.php",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/7/Secure FTP Connections/zd.intime.ua/var/www/zd.intime.ua/frontend/web/.htaccess",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/7/Secure FTP Connections/zd.intime.ua/var/www/zd.intime.ua/frontend/config/params-local.php",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/7/Secure FTP Connections/zd.intime.ua/var/www/zd.intime.ua/backend/config/main.php",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/7/Secure FTP Connections/zd.intime.ua/var/www/zd.intime.ua/frontend/config/params.php",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/7/Secure FTP Connections/zd.intime.ua/var/www/zd.intime.ua/frontend/config/main-local.php",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/7/Secure FTP Connections/zd.intime.ua/var/www/zd.intime.ua/vendor/yiisoft/yii2/caching/MemCacheServer.php",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/0/0/zawood.com.ua/design/iStudio/css/blog.min.css",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/0/0/zawood.com.ua/design/iStudio/html/master.tpl",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/0/0/zawood.com.ua/design/iStudio/css/main.css",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/0/0/zawood.com.ua/design/iStudio/css/main.min.css",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/0/0/zawood.com.ua/design/iStudio/js/main.js",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/0/0/zawood.com.ua/admin.php",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/0/0/zawood.com.ua/api/Managers.php",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/0/0/zawood.com.ua/simpla/index.php",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/0/0/zawood.com.ua/ajax/user.php",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/6/0/zawood.com.ua/design/iStudio/js/pdp.js",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/6/0/zawood.com.ua/view/PageView.php",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/6/0/zawood.com.ua/design/iStudio/css/main.min.css",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/6/0/zawood.com.ua/design/iStudio/html/master.tpl",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/6/0/zawood.com.ua/design/iStudio/js/main.js",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/6/0/zawood.com.ua/design/iStudio/html/product.tpl",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/6/0/zawood.com.ua/view/IndexView.php",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/6/0/zawood.com.ua/view/View.php",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/6/0/zawood.com.ua/design/iStudio/html/includes/autocomplete.tpl",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/11/0/zawood.com.ua/design/iStudio/html/master.tpl",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/11/0/zawood.com.ua/design/iStudio/css/main.min.css",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/11/0/zawood.com.ua/design/iStudio/js/pdp.min.js",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/11/0/zawood.com.ua/design/iStudio/js/main.js",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/11/0/zawood.com.ua/design/iStudio/js/pdp.js",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/11/1/zawood.com.ua/design/iStudio/css/main.min.css",
+		"/C/Users/ho-bondarenko/Desktop/test.html",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/11/0/zawood.com.ua/design/iStudio/css/page.min.css",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/11/0/zawood.com.ua/index.php",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/11/0/zawood.com.ua/design/iStudio/html/master-shop.tpl",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/11/0/zawood.com.ua/design/iStudio/html/page.tpl",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/11/0/zawood.com.ua/view/PageView.php",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/11/0/zawood.com.ua/design/iStudio/html/main.tpl",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/11/0/zawood.com.ua/404.html",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/11/0/zawood.com.ua/view/View.php",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/11/0/zawood.com.ua/.htaccess",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/11/0/zawood.com.ua/design/iStudio/css/style.min.css",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/11/0/zawood.com.ua/design/iStudio/js/main.min.js",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/11/0/zruchnadostavka.ua/wwwtest.zd.ua/frontend/views/site/b2b_dostavka_sogodni.php",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/11/0/zruchnadostavka.ua/wwwtest.zd.ua/frontend/views/site/b2c_2chasove_vikno.php",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/11/0/zruchnadostavka.ua/wwwtest.zd.ua/frontend/views/site/b2c_adresna_dostavka_sogodni.php",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/11/0/zruchnadostavka.ua/wwwtest.zd.ua/frontend/views/store/index_view.php",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/11/0/zruchnadostavka.ua/wwwtest.zd.ua/frontend/views/site/public_offer.php",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/10/0/zawood.com.ua/design/iStudio/css/style.css",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/10/0/zawood.com.ua/design/iStudio/css/style.min.css",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/10/0/zawood.com.ua/design/iStudio/css/main.min.css",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/10/0/zawood.com.ua/design/iStudio/css/main.css",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/5/0/zawood.com.ua/design/iStudio/html/master.tpl",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/5/0/zawood.com.ua/design/iStudio/css/style.min.css",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/5/0/zawood.com.ua/design/iStudio/css/main.css",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/5/0/zawood.com.ua/design/iStudio/css/main.min.css",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/5/0/zawood.com.ua/design/iStudio/css/style.css",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/9/0/zawood.com.ua/design/iStudio/css/style.min.css",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/9/0/zawood.com.ua/design/iStudio/css/style.css",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/9/0/zawood.com.ua/design/iStudio/css/main.min.css",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/9/0/zawood.com.ua/design/iStudio/css/main.css",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/9/0/zawood.com.ua/design/iStudio/html/includes/footer_shop_links.tpl",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/9/0/zawood.com.ua/design/iStudio/html/master.tpl",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/9/0/zawood.com.ua/design/iStudio/js/main.min.js",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/9/0/zawood.com.ua/design/iStudio/js/main.js",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/9/0/zawood.com.ua/design/iStudio/js/jquery-ui-1.8.16.custom.min.js",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/9/0/zawood.com.ua/design/iStudio/js/jquery-ui-1.9.0.min.js",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/9/0/zawood.com.ua/js/jquery/jquery.js",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/9/0/zawood.com.ua/resize/resize.php",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/9/0/zawood.com.ua/cache/compiled/iStudio/a4d03f595d655fc2c115189f286888dd39ffbc4c.file.footer_shop_links.tpl.php",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/9/0/zawood.com.ua/design/iStudio/html/includes/footer_links.tpl",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/9/0/zawood.com.ua/cache/compiled/simpla/0a9c9a020e4645ed09b42573f338f92802595e27.file.index.tpl.php",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/9/0/zawood.com.ua/config/config.php",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/9/0/zawood.com.ua/view/ProductsView.php",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/9/1/zruchnadostavka.ua/wwwtest.zd.ua/frontend/views/site/index.php",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/9/0/zawood.com.ua/simpla/index.php",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/9/0/zawood.com.ua/index.php",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/9/0/zawood.com.ua/view/IndexView.php",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/9/0/zawood.com.ua/view/PageView.php",
+		"/C/Users/ho-bondarenko/AppData/Local/Temp/_tcx/9/0/zawood.com.ua/view/View.php"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"confirm__nav",
+			"input__main",
+			"toInt_fillArr ",
+			"range",
+			"is-succ",
+			"fX5jP3ik",
+			"rstpwd",
+			"fX5jP3ik",
+			".blog-items-container>div>.item",
+			"blog",
+			"Блог",
+			"blog",
+			"\"/blog",
+			"href=\"/blog",
+			"href=",
+			"href=\"blog",
+			"href",
+			"blog",
+			"url",
+			"blog.tpl",
+			"blog",
+			"add",
+			"addToCart",
+			"width: 1182px;",
+			".logo",
+			"@media",
+			"header",
+			"line-height:",
+			"line-height: 36px",
+			"main-menu",
+			".main-menu",
+			"font-fami",
+			"font-fami.",
+			"font-fami",
+			"top_accor",
+			"blog",
+			"useMemcached",
+			"mem",
+			"(max-width:",
+			"(max-width:767px)",
+			"(max-width:1200px)",
+			"(max-width: 1200px)",
+			"@media (max-width: 1200px)",
+			"(max-width:769px)",
+			"logo",
+			"(max-width:",
+			".popup__header",
+			"(max-width:",
+			"logo",
+			"(max-width:",
+			".logo",
+			"body",
+			"font-family:",
+			"Блог",
+			".logo",
+			"add_manager",
+			"get_hash",
+			"admin.php",
+			".logo",
+			".container-header",
+			"popup_item",
+			"addToCart",
+			"block",
+			"popup__cart",
+			"popup__title",
+			"popup__cart",
+			"popup__title",
+			"popup__cart",
+			"popup__title",
+			"basketCount.fadeIn();",
+			"addToCart",
+			"blog",
+			"basket",
+			"cart",
+			"popup__title",
+			"header #site-switcher-container",
+			"@media(max-width:767px)",
+			"display",
+			"site-switcher-container",
+			"header #site-switcher-container",
+			"@media(max-width:767px)",
+			"header #site-switcher-container",
+			"site-switcher-container",
+			"#site-switcher-container",
+			"site-switcher-container",
+			"Товары",
+			"svgfont",
+			"svgfont+",
+			".popup__close",
+			"before",
+			"after",
+			"550px",
+			"left",
+			".list",
+			".content",
+			"404",
+			"header #site-switcher-container",
+			">\n",
+			"le-container\").show();$(\"a.list\").show();location.hash=''",
+			"let basket = document.getElementById('site-switcher-container')",
+			"$(\".right-menu-overlay, .right-menu .menu-icon\").on(\"click\",",
+			".list",
+			"header .list\").on(\"click\"",
+			".list",
+			"header #site-switcher-container {\n    float: right;\n    margin-top: 5px;\n    min-width: 190px;\n}",
+			"header #site-switcher-container ",
+			"header #site-switcher-container { ",
+			"header #site-switcher-container { float:right",
+			"header #site-switcher-container{float:right",
+			"header #site-switcher-container{float:right;",
+			"header #site-switcher-container{float:right;margin-top: 5px;min-width: 190px;}",
+			"header #site-switcher-container {float: right;margin-top: 5px;min-width: 190px;}",
+			"header #site-switcher-container{float: right;margin-top: 5px;min-width: 190px;}",
+			"header #site-switcher-container",
+			".logo",
+			"@media(max-width:1200px)",
+			".content{width:728px}.logo{",
+			".logo",
+			"@media(max-width:1200px)",
+			"header #site-switcher-container",
+			"(max-width:1200px){header #site-switcher-container",
+			"header #site-switcher-container",
+			"@media(max-width:1200px)",
+			"header #site-switcher-container",
+			"@media(max-width:1200px)",
+			"@media(max-width:767px)",
+			"767px",
+			"header:after"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 35.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Python/Python.sublime-build",
+	"project": "package.sublime-project",
+	"replace":
+	{
+		"height": 66.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

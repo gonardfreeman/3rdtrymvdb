@@ -1,0 +1,26 @@
+.movie__out{
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  background: #f7f7f7;
+}
+.movie__wrapper {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 0 40px 0;
+}
+.movie__item{
+  padding: 20px;
+  font-size: 26px;
+}
+.movie__title{
+  font-size: 26px;
+  padding: 5px 0;
+  font-weight: bold;
+}
+.movie__recomendations{
+  max-height: 800px;
+  overflow: auto;
+}

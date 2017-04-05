@@ -2,18 +2,20 @@ import { connect } from 'react-redux'
 import { bindActionCreators } from 'redux'
 import MovieComponent from '../components/MovieComponent'
 import * as loadMovieActions from '../actions/loadMovieActions'
-import * as visibilityFilter from '../actions/visibilityFilter'
+// import { SHOW_POPULAR, SHOW_MOVIE, SHOW_FAVORITES} from '../constants/Visibility'
 
-function mapStateToProps(state){
+
+function mapStateToProps(state, ownProps){
+  // console.log(ownProps);
   return {
-    movie: state.movie
+    movie:  state.movie,
+    movieId: ownProps.params.id
   }
 }
 
 function mapDispatchToProps(dispatch){
   return {
-      movieAction: bindActionCreators(loadMovieActions, dispatch),
-      visibilityActions: bindActionCreators(visibilityFilter, dispatch)
+      movieAction: bindActionCreators(loadMovieActions, dispatch)
   }
 }
 
