@@ -16,8 +16,7 @@ export default class PopularMovies extends React.Component{
         return (
           <li key={item.title} className={page.list_item}>
             <Link to={{
-              pathname:'/movie/'+item.id,
-              state: {...this.state, visibilityFilter: 'SHOW_MOVIE'}
+              pathname:'/movie/'+item.id
             }}
                 style={{
                 textDecoration: 'none',

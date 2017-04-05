@@ -15,7 +15,7 @@ export default class RecomendationsComponent extends React.Component {
         return(
           <li key={item.id}>
             <Link to={{
-              pathname:'/movie/'+item.id,
+              pathname:'/movie/'+item.id
             }}
                 style={{
                 textDecoration: 'none',

@@ -9,10 +9,6 @@ export default class MovieComponent extends React.Component{
     const {loadMovie} = this.props.movieAction
     loadMovie(this.props.movieId)
   }
-  componentDidMount(){
-    const {loadMovie} = this.props.movieAction
-    loadMovie(this.props.movieId)
-  }
   render(){
     const {movie} = this.props
     const {recomendations, movieId, recomendationsAction} = this.props
