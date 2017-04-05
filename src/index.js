@@ -11,6 +11,7 @@ import Movie from './containers/Movie'
 import Favorites from './containers/Favorites'
 
 
+
 const store = configureStore()
 const history = syncHistoryWithStore(browserHistory, store)
 const muiTheme = getMuiTheme({

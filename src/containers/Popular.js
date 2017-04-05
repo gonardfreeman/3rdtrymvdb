@@ -2,7 +2,8 @@ import { bindActionCreators } from 'redux'
 import { connect } from 'react-redux'
 import PopularMovies from '../components/PopularMovies'
 import * as getPopularActions from '../actions/loadPopularActions'
-// import { SHOW_POPULAR, SHOW_MOVIE, SHOW_FAVORITES} from '../constants/Visibility'
+
+
 
 
 

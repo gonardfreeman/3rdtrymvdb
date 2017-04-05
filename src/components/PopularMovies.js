@@ -5,7 +5,7 @@ import page from '../styles/page.css'
 
 
 export default class PopularMovies extends React.Component{
-  
+
   componentWillMount(){
     const {loadPopular} = this.props.popularActions
     loadPopular()
