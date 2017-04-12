@@ -41,3 +41,8 @@
 ::-webkit-scrollbar-thumb:window-inactive {
 	background: #BDC0D9;
 }
+.movie__togle{
+  padding: 30px 0;
+  max-width: 300px;
+  width: 100%;
+}

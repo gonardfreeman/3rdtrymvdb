@@ -1,5 +1,6 @@
 import React from 'react'
 import Paper from 'material-ui/Paper'
+import Toggle from 'material-ui/Toggle';
 import { Link } from 'react-router'
 import RecomendationsComponent from './RecomendationsComponent'
 import movieStyle from '../styles/movie.css'
@@ -43,6 +44,12 @@ export default class MovieComponent extends React.Component{
               <div><b>Average:</b> {movie.get('vote_average')}</div>
               <div>{movie.get('overview')}</div>
               <div><b>Genres:</b> {gen_lst}</div>
+              <div className={movieStyle.movie__togle}>
+                <Toggle
+                  label='My favorite'
+                />
+              </div>
+
             </div>
           </Paper>
           <RecomendationsComponent movieId={movieId} recomendations={recomendations} recomendationsAction={recomendationsAction}/>
