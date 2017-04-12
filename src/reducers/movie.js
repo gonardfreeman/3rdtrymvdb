@@ -1,9 +1,12 @@
+import Immutable from 'immutable'
 import {LOAD_MOVIE_SUCCES} from '../constants/Movie'
 
-export default function favorites(state=[], action){
+const initialState = Immutable.Map()
+
+export default function favorites(state=initialState, action){
   switch (action.type) {
     case LOAD_MOVIE_SUCCES:
-      return action.payload
+      return state.merge(action.payload)
     default:
       return state
   }

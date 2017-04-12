@@ -13,14 +13,31 @@
 }
 .movie__item{
   padding: 20px;
-  font-size: 26px;
+  font-size: 28px;
+  font-weight: 500;
 }
 .movie__title{
-  font-size: 26px;
+  font-size: 30px;
   padding: 5px 0;
   font-weight: bold;
 }
 .movie__recomendations{
   max-height: 800px;
   overflow: auto;
+}
+.recomendation__list{
+  list-style: none;
+}
+.recomendation__item{
+  height: 1037px;
+  overflow: auto;
+}
+::-webkit-scrollbar {
+    width: 9px;
+}
+::-webkit-scrollbar-thumb {
+    background: #CACCE1;
+}
+::-webkit-scrollbar-thumb:window-inactive {
+	background: #BDC0D9;
 }

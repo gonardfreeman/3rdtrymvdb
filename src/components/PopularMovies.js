@@ -5,7 +5,6 @@ import page from '../styles/page.css'
 
 
 export default class PopularMovies extends React.Component{
-
   componentWillMount(){
     const {loadPopular} = this.props.popularActions
     loadPopular()
@@ -14,9 +13,9 @@ export default class PopularMovies extends React.Component{
       const {information} = this.props
       const movs = information.map((item)=>{
         return (
-          <li key={item.title} className={page.list_item}>
+          <li key={item.get('title')} className={page.list_item}>
             <Link to={{
-              pathname:'/movie/'+item.id
+              pathname:'/movie/'+item.get('id')
             }}
                 style={{
                 textDecoration: 'none',
@@ -25,8 +24,8 @@ export default class PopularMovies extends React.Component{
               >
               <Paper zDepth={2}>
                 <div className={page.list_content}>
-                  <div className={page.title}>{item.title}</div>
-                  <img src={'https://image.tmdb.org/t/p/w500'+item.poster_path}/>
+                  <div className={page.title}>{item.get('title')}</div>
+                  <img src={'https://image.tmdb.org/t/p/w500'+item.get('poster_path')}/>
                 </div>
               </Paper>
             </Link>

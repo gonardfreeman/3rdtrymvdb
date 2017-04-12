@@ -1,9 +1,12 @@
+import Immutable from 'immutable'
 import {LOAD_POPULAR_SUCCES} from '../constants/Popular'
 
-export default function favorites(state=[], action){
+const initialState = Immutable.List()
+
+export default function favorites(state = initialState, action){
   switch (action.type) {
     case LOAD_POPULAR_SUCCES:
-      return action.payload
+      return state.merge(action.payload)
     default:
       return state
   }
