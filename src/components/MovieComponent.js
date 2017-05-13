@@ -1,9 +1,10 @@
 import React from 'react'
 import Paper from 'material-ui/Paper'
-import Toggle from 'material-ui/Toggle';
 import { Link } from 'react-router'
 import RecomendationsComponent from './RecomendationsComponent'
+import FavButton from '../containers/FavButton'
 import movieStyle from '../styles/movie.css'
+
 
 export default class MovieComponent extends React.Component{
   componentWillMount(){
@@ -18,6 +19,7 @@ export default class MovieComponent extends React.Component{
       loadMovie(newProps.movieId)
     }
   }
+
   render(){
     const {movie} = this.props
     const {recomendations, movieId, recomendationsAction} = this.props
@@ -45,9 +47,7 @@ export default class MovieComponent extends React.Component{
               <div>{movie.get('overview')}</div>
               <div><b>Genres:</b> {gen_lst}</div>
               <div className={movieStyle.movie__togle}>
-                <Toggle
-                  label='My favorite'
-                />
+                <FavButton/>
               </div>
 
             </div>
